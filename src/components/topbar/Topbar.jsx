@@ -6,7 +6,8 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         <div className={"topbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className="logo">genius.</a> {/* Topbar logo */}
+                    {/* Topbar logo */}
+                    <a href="#intro" className="logo">genius.</a>
                     <div className="itemContainer">
                         <Person className="icon"/>
                         <span>+1 333 333 3333</span>
@@ -29,5 +30,3 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         </div>
     )
 }
-
-// Topbar logo
